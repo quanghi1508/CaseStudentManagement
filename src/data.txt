@@ -1,5 +1,0 @@
-----Student----
-Id=1
-Name=quang
-Date of birth=2020-02-01
-Average Score=5

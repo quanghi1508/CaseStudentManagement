@@ -52,10 +52,10 @@ public class Student implements Comparable<Student> {
     @Override
     public String toString() {
         return "----Student----"+"\n"+
-                "Id=" + id + "\n" +
-                "Name=" + name + "\n" +
-                "Date of birth=" + dateOfBirth + "\n" +
-                "Average Score=" + averageScore + "\n" ;
+                "Id            : " + id + "\n" +
+                "Name          : " + name + "\n" +
+                "Date of birth : " + dateOfBirth + "\n" +
+                "Average Score : " + averageScore + "\n" ;
     }
 
     @Override

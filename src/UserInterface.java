@@ -40,7 +40,6 @@ public class UserInterface {
 //                    editStudent();
                     break;
                 case 3:
-
                     removeStudent();
                     break;
                 case 4:
@@ -127,19 +126,19 @@ public class UserInterface {
 
         }
 
-    private static void searchStudent(){
-        System.out.println("Enter id; ");
-        int id = scanner.nextInt();
-        int index= 0;
-        for ( int i = 0; i < students.size(); i++ ){
-            if (id == i ){
-                index = i;
-                break;
-            }
-        }
+//    private static void searchStudent(){
+//        System.out.println("Enter id; ");
+//        int id = scanner.nextInt();
+//        int index= 0;
+//        for ( int i = 0; i < students.size(); i++ ){
+//            if (id == i ){
+//                index = i;
+//                break;
+//            }
+//        }
 
 
-    }
+
 
     }
 
