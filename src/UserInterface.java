@@ -20,6 +20,8 @@ public class UserInterface {
 
         while (true){
             System.out.println(" =============================================");
+            System.out.println("|           Student Management App            |");
+            System.out.println("|                                             |");
             System.out.println("| 1. Add new student                          |");
             System.out.println("| 2. Edit student information                 |");
             System.out.println("| 3. Delete student information               |");
@@ -88,14 +90,14 @@ public class UserInterface {
             studentList.add(student.toString());
         }
         WriteFile.write(studentList);
-        System.out.println("The contact has been added successfully!");
+        System.out.println("The student has been added successfully!");
     }
 
     private static void showStudent() {
         if(students.isEmpty()){
-            System.out.println("No contacts");
+            System.out.println("No student");
         }else{
-            System.out.println("Contact: ");
+            System.out.println("Student: ");
             for (Student student : students) {
                 System.out.println(student);
             }
